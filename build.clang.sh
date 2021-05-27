@@ -23,8 +23,8 @@ PATH=:"${KERNEL_DIR}/proton-clang/bin:${PATH}:${KERNEL_DIR}/stock/bin:${PATH}:${
 export ARCH=arm64
 export CROSS_COMPILE
 export CROSS_COMPILE_ARM32
-export KBUILD_BUILD_USER=DirtyGEN
-export KBUILD_BUILD_HOST=CircleCI
+export KBUILD_BUILD_USER=Khaliff
+export KBUILD_BUILD_HOST=GengKapak
 
 
 # Build start
