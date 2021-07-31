@@ -20,7 +20,8 @@ git clone https://github.com/Khalif766/AnyKernel3.git -b master
 
 #Download Clang
 if [ ! -d clang ]; then
-git clone https://github.com/kdrag0n/proton-clang --branch 20210123 --single-branch --depth=1
+     git clone https://github.com/GengKapak/GengKapak-clang --depth=1
+#    git clone https://github.com/kdrag0n/proton-clang --branch 20210123 --single-branch --depth=1
 #    git clone https://github.com/silont-project/silont-clang.git --depth=1
 #    git clone https://github.com/arter97/arm64-gcc.git --depth=1
 #    git clone https://github.com/arter97/arm32-gcc.git --depth=1
