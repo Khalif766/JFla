@@ -17,7 +17,7 @@ ZIP_DIR=$KERNEL_DIR/AnyKernel3
 CONFIG=onc-perf_defconfig
 CROSS_COMPILE="aarch64-linux-gnu-"
 CROSS_COMPILE_ARM32="arm-linux-gnueabi-"
-PATH=:"${KERNEL_DIR}/gengkapak-clang/bin:${PATH}:${KERNEL_DIR}/stock/bin:${PATH}:${KERNEL_DIR}/stock_32/bin:${PATH}"
+PATH=:"${KERNEL_DIR}/GengKapak-clang/bin:${PATH}:${KERNEL_DIR}/stock/bin:${PATH}:${KERNEL_DIR}/stock_32/bin:${PATH}"
 
 # Export
 export ARCH=arm64
@@ -34,7 +34,7 @@ make -j$(nproc --all) O=out \
                       ARCH=arm64 \
                       CC=clang \
 CLANG_TRIPLE=aarch64-linux-gnu- \
-CROSS_COMPILE=aarch64-linux-android-
+#CROSS_COMPILE=aarch64-linux-android-
 
 if ! [ -a $KERN_IMG ]; then
     echo "Build error!"
